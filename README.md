@@ -5,7 +5,7 @@ I wrote this script to extract fields from a portal that had several table secti
 You can use this code to create your own data scraper, this code should demonstrate the possiblities that a data scraper is capable of.
 
 ### How it works:
-- So I basically find the main table within the page, sanitize the html (remove unnecessary whitespace and newlines (including CR's & <br>'s)
+- So I basically find the main table within the page, sanitize the html (remove unnecessary whitespace and newlines (including CR's & `<br>`'s)
 - Then I find all the sub-tables (rows), and iterate through each of them, and extract the required data.
 
 ### Instructions:
